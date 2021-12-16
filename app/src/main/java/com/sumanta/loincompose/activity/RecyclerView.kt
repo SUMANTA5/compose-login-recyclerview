@@ -1,4 +1,4 @@
-package com.sumanta.loincompose.ui
+package com.sumanta.loincompose.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -1,4 +1,4 @@
-package com.sumanta.loincompose
+package com.sumanta.loincompose.activity
 
 import android.os.Bundle
 import android.widget.Toast
