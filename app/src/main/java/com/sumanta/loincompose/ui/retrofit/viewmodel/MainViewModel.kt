@@ -25,7 +25,7 @@ constructor(private val mainRepo: MainRepo): ViewModel() {
         getPost()
     }
 
-  fun getPost() = viewModelScope.launch {
+  private fun getPost() = viewModelScope.launch {
       mainRepo.getPost()
           .onStart {
               response.value = ApiState.Loading
